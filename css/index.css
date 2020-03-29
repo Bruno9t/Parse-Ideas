@@ -1,0 +1,140 @@
+/* 
+::IDENTIDADE VISUAL:: 
+
+Cor dos botões
+#5A47CC
+
+Altura dos Botões (Ver mais, Detalhes, etc...)
+30px
+
+Altura dos Botões Call To Action (Quero Anunciar)
+60px
+
+Font-Family
+Roboto
+
+Cor para Categoria de E-Commerce
+rgba(185, 0, 166, 0.8);
+
+Cor para Categoria de Soluções
+rgba(27, 192, 23, 0.8);
+
+Cor para Categoria de Rede Social
+rgba(25, 171, 181, 0.8);
+
+Background do Footer
+#1C1C1C;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+*{
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #eee;
+}
+
+#mainMenu .btn-primary{
+    color: white;
+    background-color: #5A47CC;
+    border-color:#5A47CC;
+}
+
+#search{
+    background-color: #5A47CC;
+    color: #fff;
+}
+
+#search h1{
+    font-size: 2em;
+}
+
+#search hr{
+    background-color: white;
+}
+
+#search p{
+    text-align: justify;
+    font-weight: 300;
+}
+
+.formBox{
+    background-color: #3f328f;
+    border-radius: 10px;
+}
+
+.formBox .btn{
+    background-color: #0d0a1d;
+    color: #fff;
+    border-color: #0d0a1d;
+}
+
+#recentAnnouncements{
+    background-color: #eee;
+}
+
+#recentAnnouncements .card{
+    overflow: hidden;
+} 
+
+#recentAnnouncements .card h5{
+    font-size: 1em;
+}
+
+#recentAnnouncements .card p {
+    color: #5A47CC;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#recentAnnouncements .card .spotlight{
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    background-color: #5A47CC;
+    color: white;
+    top: 8px;
+    right: -40px;
+    font-weight: bold;
+    transform: rotate(32deg);
+    text-transform: uppercase;
+    font-size: .7em;
+}
+
+#recentAnnouncements .card .categorie{
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    color: white;
+    top: calc(12.5rem - 1px);
+    left: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .6em;
+}
+
+.tag-ecommerce{
+    background-color: rgba(185, 0, 166, 0.8);
+}
+
+.tag-solutions{
+    background-color: rgba(27, 192, 23, 0.8);
+}
+
+.tag-socialmedia{
+    background-color: rgba(25, 171, 181, 0.8);
+}
+
+#recentAnnouncements .card .btn{
+    background-color: white;
+    border: 1px solid #5A47CC;
+    color:#5A47CC;
+}
+
+#recentAnnouncements .card .btn:hover{
+    background-color: #5A47CC;
+    color: white;
+}
