@@ -138,3 +138,94 @@ body{
     background-color: #5A47CC;
     color: white;
 }
+
+#recentAnnouncements .btn-primary{
+    background-color: #5A47CC;
+    border: 1px solid white;
+    color:#fff;
+}
+
+#recentAnnouncements .btn-primary:hover{
+   font-weight: bold;
+}
+
+#howItWorks{
+    background-color: #fff;
+}
+
+#howItWorks .btn{
+    background-color: #5A47CC;
+    border: 1px solid white;
+    color:#fff;
+}
+
+#howItWorks .btn:hover{
+    font-weight: bold;
+}
+
+#blog .btn{
+    background-color: #5A47CC;
+    border: 1px solid white;
+    color:#fff;
+}
+
+#blog .btn:hover{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer .list-group-item{
+    background-color: #ffffff21;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .icons-socialmedia{
+    font-size: 2em;
+}
+
+.modal{
+    border: 0;
+}
+
+.modal h2{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width:768px){
+    #search .col:nth-child(2){
+        display: none;
+    }
+
+    .card{
+        margin-bottom: 2em;
+    }
+
+    #howItWorks img{
+       width: 50%;
+    }
+
+    #recentAnnouncements .card .categorie{
+        top: calc(20.0rem - 1px);
+    }
+
+}
