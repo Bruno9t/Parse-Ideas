@@ -211,6 +211,19 @@ footer .icons-socialmedia{
     font-weight: bold;
 }
 
+@media (max-width:1200px){
+    #recentAnnouncements .card .categorie{
+        top: calc(10.0rem - 1px);
+    }
+}
+
+
+@media (max-width:991px){
+    #recentAnnouncements .card .categorie{
+        top: calc(6.5rem - 1px);
+    }
+}
+
 @media (max-width:768px){
     #search .col:nth-child(2){
         display: none;
@@ -228,4 +241,40 @@ footer .icons-socialmedia{
         top: calc(20.0rem - 1px);
     }
 
+}
+
+@media (max-width:540px){
+    #recentAnnouncements .card .categorie{
+        top: calc(19.5rem - 1px);
+    }
+}
+
+@media (max-width:512px){
+    #recentAnnouncements .card .categorie{
+        top: calc(17.5rem - 1px);
+    }
+}
+
+@media (max-width:480px){
+    #recentAnnouncements .card .categorie{
+        top: calc(15.5rem - 1px);
+    }
+}
+
+@media (max-width:430px){
+    #recentAnnouncements .card .categorie{
+        top: calc(13.5rem - 1px);
+    }
+}
+
+@media (max-width:380px){
+    #recentAnnouncements .card .categorie{
+        top: calc(11.5rem - 1px);
+    }
+}
+
+@media (max-width:340px){
+    #recentAnnouncements .card .categorie{
+        top: calc(10.5rem - 1px);
+    }
 }
