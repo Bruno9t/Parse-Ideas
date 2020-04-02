@@ -1,22 +1,5 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
-
-*{
-    box-sizing: border-box !important;
-    font-family: 'Roboto', sans-serif;
-    outline: 0;
-}
-
-html, 
-body{
-    font-size: 62.5%;
-}
-
-body{
-    background-color: #eee;
-}
-
 .form-control{
     height: calc(3.25rem + 2px);
     font-size: 1.4rem;
@@ -166,6 +149,11 @@ body{
     font-size: 1.6rem;
 }
 
+#blog h5{
+    font-size: 1.8rem;
+    padding: 1.6rem;
+}
+
 #blog .btn{
     background-color: #5A47CC;
     border: 1px solid white;
@@ -177,35 +165,6 @@ body{
     font-weight: bold;
 }
 
-footer{
-    background-color: #1c1c1c;
-    color: white;
-    font-size: 1.6rem;
-}
-
-footer ul{
-    list-style: none;
-}
-
-footer .list-group-item{
-    background-color: #ffffff21;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-footer .icons-socialmedia{
-    font-size: 3.2rem;
-}
-
 .modal{
     border: 0;
     font-size: 1.6rem;
@@ -215,6 +174,10 @@ footer .icons-socialmedia{
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.modal .btn {
+    font-size: 1.6rem;
 }
 
 
