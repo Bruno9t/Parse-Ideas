@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+
+*{
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+   height: 100.797px;
+
+   padding: 8px 16px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+header img{
+    display:block;
+
+    height: 80px;
+    width: 213px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin:50px;
+}
+
+#info .card img{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#info h5{
+    color: #5A47CC;
+}
+
+
+#info .card{
+    padding: 10px;
+    margin-bottom: 20px;
+    border:5px rgb(182, 179, 179) solid;
+    text-align: center;
+}
+
+.redirect{
+    text-align: center;
+}
+
+.redirect button{
+    background: rgb(83, 206, 83);
+    border:none;
+    margin:20px;
+    min-width: 300px;
+    height: 60px;
+}
+/* Planos */
+
+section#plans{
+    background: rgb(201, 200, 200);
+    padding: 20px;
+}
+
+section#plans .row{
+    margin-bottom: 100px;
+}
+
+section#plans .card{
+    border:1px gray solid;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#plans h5{
+    font-weight: bold;
+}
+
+section#plans h5, h4{
+    border-bottom:1px gray solid;
+    padding: 15px;
+}
+
+section#plans h4{
+    color: #5A47CC;
+}
+
+section#plans li{
+    margin:10px;
+}
+
+/* how */
+
+section#how{
+    background: #5A47CC;
+    padding: 20px;
+}
+
+section#how h2{
+    color:white;
+}
+
+section#how span{
+    background: #2C18A1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    color:white;
+}
+
+section#how p{
+    display: inline;
+    margin: 10px;
+}
+
+
+
