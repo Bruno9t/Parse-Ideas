@@ -1,55 +1,30 @@
-/* 
-::IDENTIDADE VISUAL:: 
 
-Cor dos botões
-#5A47CC
 
-Altura dos Botões (Ver mais, Detalhes, etc...)
-30px
-
-Altura dos Botões Call To Action (Quero Anunciar)
-60px
-
-Font-Family
-Roboto
-
-Cor para Categoria de E-Commerce
-rgba(185, 0, 166, 0.8);
-
-Cor para Categoria de Soluções
-rgba(27, 192, 23, 0.8);
-
-Cor para Categoria de Rede Social
-rgba(25, 171, 181, 0.8);
-
-Background do Footer
-#1C1C1C;
-*/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
-
-*{
-    box-sizing: border-box !important;
-    font-family: 'Roboto', sans-serif;
+.form-control{
+    height: calc(3.25rem + 2px);
+    font-size: 1.4rem;
 }
 
-body{
-    background-color: #eee;
+#mainMenu{
+    font-size: 1.6rem;
 }
 
 #mainMenu .btn-primary{
     color: white;
     background-color: #5A47CC;
     border-color:#5A47CC;
+    font-size: 1.5rem;
 }
 
 #search{
     background-color: #5A47CC;
     color: #fff;
+    font-size: 1.6rem;
 }
 
 #search h1{
-    font-size: 2em;
+    /* font-size: 2em; */
+    font-size: 3.2rem;
 }
 
 #search hr{
@@ -64,16 +39,19 @@ body{
 .formBox{
     background-color: #3f328f;
     border-radius: 10px;
+    font-size: 1.6rem;
 }
 
 .formBox .btn{
     background-color: #0d0a1d;
     color: #fff;
     border-color: #0d0a1d;
+    font-size: 1.6rem;
 }
 
 #recentAnnouncements{
     background-color: #eee;
+    font-size: 1.6rem;
 }
 
 #recentAnnouncements .card{
@@ -81,7 +59,7 @@ body{
 } 
 
 #recentAnnouncements .card h5{
-    font-size: 1em;
+    font-size: 1.5rem;
 }
 
 #recentAnnouncements .card p {
@@ -96,12 +74,12 @@ body{
     text-align: center;
     background-color: #5A47CC;
     color: white;
-    top: 8px;
+    top:8px;
     right: -40px;
     font-weight: bold;
     transform: rotate(32deg);
     text-transform: uppercase;
-    font-size: .7em;
+    font-size: 1.2rem;
 }
 
 #recentAnnouncements .card .categorie{
@@ -109,11 +87,11 @@ body{
     width: 150px;
     text-align: center;
     color: white;
-    top: calc(12.5rem - 1px);
+    top: calc(21.5rem - 1px);
     left: 0;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: .6em;
+    font-size: 1rem;
 }
 
 .tag-ecommerce{
@@ -132,6 +110,7 @@ body{
     background-color: white;
     border: 1px solid #5A47CC;
     color:#5A47CC;
+    font-size: 1.6rem;
 }
 
 #recentAnnouncements .card .btn:hover{
@@ -143,6 +122,7 @@ body{
     background-color: #5A47CC;
     border: 1px solid white;
     color:#fff;
+    font-size: 1.6rem;
 }
 
 #recentAnnouncements .btn-primary:hover{
@@ -151,76 +131,66 @@ body{
 
 #howItWorks{
     background-color: #fff;
+    font-size: 1.6rem;
 }
 
 #howItWorks .btn{
     background-color: #5A47CC;
     border: 1px solid white;
     color:#fff;
+    font-size: 1.6rem;
 }
 
 #howItWorks .btn:hover{
     font-weight: bold;
 }
 
+#blog{
+    font-size: 1.6rem;
+}
+
+#blog h5{
+    font-size: 1.8rem;
+    padding: 1.6rem;
+}
+
 #blog .btn{
     background-color: #5A47CC;
     border: 1px solid white;
     color:#fff;
+    font-size: 1.6rem;
 }
 
 #blog .btn:hover{
     font-weight: bold;
 }
 
-footer{
-    background-color: #1c1c1c;
-    color: white;
-}
-
-footer ul{
-    list-style: none;
-}
-
-footer .list-group-item{
-    background-color: #ffffff21;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-footer .icons-socialmedia{
-    font-size: 2em;
-}
-
 .modal{
     border: 0;
+    font-size: 1.6rem;
 }
 
 .modal h2{
-    font-size: 1em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
 }
 
+.modal .btn {
+    font-size: 1.6rem;
+}
+
+
 @media (max-width:1200px){
     #recentAnnouncements .card .categorie{
-        top: calc(10.0rem - 1px);
+        top: calc(17.0rem - 1px);
     }
 }
 
 
 @media (max-width:991px){
     #recentAnnouncements .card .categorie{
-        top: calc(6.5rem - 1px);
+        top: calc(11.5rem - 1px);
     }
 }
 
@@ -238,43 +208,56 @@ footer .icons-socialmedia{
     }
 
     #recentAnnouncements .card .categorie{
-        top: calc(20.0rem - 1px);
+        top: calc(32.0rem - 1px);
     }
 
 }
 
 @media (max-width:540px){
     #recentAnnouncements .card .categorie{
-        top: calc(19.5rem - 1px);
+        top: calc(31.5rem - 1px);
     }
 }
 
 @media (max-width:512px){
     #recentAnnouncements .card .categorie{
-        top: calc(17.5rem - 1px);
+        top: calc(29.5rem - 1px);
     }
 }
 
 @media (max-width:480px){
     #recentAnnouncements .card .categorie{
-        top: calc(15.5rem - 1px);
+        top: calc(25.5rem - 1px);
     }
 }
 
 @media (max-width:430px){
     #recentAnnouncements .card .categorie{
-        top: calc(13.5rem - 1px);
+        top: calc(22.5rem - 1px);
     }
 }
 
 @media (max-width:380px){
+
+    html{
+        font-size: 50%;
+    }
+
     #recentAnnouncements .card .categorie{
-        top: calc(11.5rem - 1px);
+        top: calc(22.5rem - 1px);
     }
 }
 
 @media (max-width:340px){
     #recentAnnouncements .card .categorie{
-        top: calc(10.5rem - 1px);
+        top: calc(18.5rem - 1px);
     }
 }
+
+@media (max-width:270px){
+    #recentAnnouncements .card .categorie{
+        top: calc(15.5rem - 1px);
+    }
+}
+
+
