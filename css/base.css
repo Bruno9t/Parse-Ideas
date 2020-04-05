@@ -15,6 +15,14 @@ body{
     background-color: #FFFFFF;
 }
 
+h2{
+    font-size: 3.2rem;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    line-height: 3.0;
+}
+
 .form-control{
     height: calc(3.25rem + 2px);
     font-size: 1.4rem;
