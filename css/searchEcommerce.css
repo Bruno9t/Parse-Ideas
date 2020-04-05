@@ -1,56 +1,40 @@
-#search{
+.form-control{
+    height: calc(3.25rem + 2px);
+    font-size: 1.4rem;
+}
+
+
+.box-search{
     background-color: #5A47CC;
-    color: #fff;
-    font-size: 1.6rem;
-}
-
-#search h1{
-    /* font-size: 2em; */
-    font-size: 3.2rem;
-}
-
-#search hr{
-    background-color: white;
-}
-
-#search p{
-    text-align: justify;
-    font-weight: 300;
-}
-
-.formBox{
-    background-color: #3f328f;
     border-radius: 10px;
     font-size: 1.6rem;
+    color: white;
 }
 
-.formBox .btn{
-    background-color: #0d0a1d;
-    color: #fff;
-    border-color: #0d0a1d;
+.box-search .btn{ 
     font-size: 1.6rem;
 }
 
-#recentAnnouncements{
+#announcements{
     background-color: #eee;
     font-size: 1.6rem;
 }
 
-#recentAnnouncements .card{
+#announcements .card{
     overflow: hidden;
 } 
 
-#recentAnnouncements .card h5{
+#announcements .card h5{
     font-size: 1.5rem;
 }
 
-#recentAnnouncements .card p {
+#announcements .card p {
     color: #5A47CC;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-#recentAnnouncements .card .spotlight{
+#announcements .card .spotlight{
     position: absolute;
     width: 150px;
     text-align: center;
@@ -64,7 +48,7 @@
     font-size: 1.2rem;
 }
 
-#recentAnnouncements .card .categorie{
+#announcements .card .categorie{
     position: absolute;
     width: 150px;
     text-align: center;
@@ -88,26 +72,26 @@
     background-color: rgba(25, 171, 181, 0.8);
 }
 
-#recentAnnouncements .card .btn{
+#announcements .card .btn{
     background-color: white;
     border: 1px solid #5A47CC;
     color:#5A47CC;
     font-size: 1.6rem;
 }
 
-#recentAnnouncements .card .btn:hover{
+#announcements .card .btn:hover{
     background-color: #5A47CC;
     color: white;
 }
 
-#recentAnnouncements .btn-primary{
+#announcements .btn-primary{
     background-color: #5A47CC;
     border: 1px solid white;
     color:#fff;
     font-size: 1.6rem;
 }
 
-#recentAnnouncements .btn-primary:hover{
+#announcements .btn-primary:hover{
    font-weight: bold;
 }
 
@@ -164,14 +148,14 @@
 
 
 @media (max-width:1200px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(17.0rem - 1px);
     }
 }
 
 
 @media (max-width:991px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(11.5rem - 1px);
     }
 }
@@ -189,32 +173,32 @@
        width: 50%;
     }
 
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(32.0rem - 1px);
     }
 
 }
 
 @media (max-width:540px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(31.5rem - 1px);
     }
 }
 
 @media (max-width:512px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(29.5rem - 1px);
     }
 }
 
 @media (max-width:480px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(25.5rem - 1px);
     }
 }
 
 @media (max-width:430px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(22.5rem - 1px);
     }
 }
@@ -225,19 +209,19 @@
         font-size: 50%;
     }
 
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(22.5rem - 1px);
     }
 }
 
 @media (max-width:340px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(18.5rem - 1px);
     }
 }
 
 @media (max-width:270px){
-    #recentAnnouncements .card .categorie{
+    #announcements .card .categorie{
         top: calc(15.5rem - 1px);
     }
 }
