@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 
-*{
-    box-sizing: border-box !important;
-    font-family: 'Roboto', sans-serif;
-}
 
 header{
+
    height: 100.797px;
 
    padding: 8px 16px;
-    box-shadow: 5px 5px 5px gray;
+   box-shadow: 5px 5px 5px rgb(117, 112, 112);
 
 }
 
@@ -27,13 +24,42 @@ h2{
     margin:50px;
 }
 
+footer h2{
+    margin:30px 0 5px;
+}
+
+#info{
+    background-color: #FFFFFF;
+}
+
+#info .container{
+
+}
+
+#info .container p{
+    font-size:1.6rem;
+
+}
+
+#info .container>h2{
+    font-size: 3.8rem;
+    text-align: center;
+    margin:5rem auto;
+}
+
 #info .card img{
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 90px;
+    max-height: 90px;
+    margin: auto;
 }
 
 #info h5{
     color: #5A47CC;
+    font-size: 2.4rem;
+}
+
+#info .card>div{
+    margin:auto;
 }
 
 
@@ -42,24 +68,41 @@ h2{
     margin-bottom: 20px;
     border:5px rgb(182, 179, 179) solid;
     text-align: center;
+    height: 267px;
+    
 }
 
 .redirect{
     text-align: center;
 }
 
+.redirect p{
+    font-size: 1.4rem;
+}
+
 .redirect button{
-    background: rgb(83, 206, 83);
+    background: rgb(82, 231, 82);
     border:none;
-    margin:20px;
-    min-width: 300px;
-    height: 60px;
+    margin:20px auto;
+
+    max-width: 40rem;
+    height: 6rem;
+    font-size: 2.2rem;
+}
+
+.redirect button:hover{
+    background-color:rgb(61, 240, 61);
 }
 /* Planos */
 
 section#plans{
-    background: rgb(201, 200, 200);
+    background: #E5E5E5;
     padding: 20px;
+}
+
+section#plans h2{
+    font-size:3.8rem;
+    color: rgb(100, 96, 96);
 }
 
 section#plans .row{
@@ -67,28 +110,41 @@ section#plans .row{
 }
 
 section#plans .card{
-    border:1px gray solid;
+    border:1px rgb(218, 212, 212) solid;
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
     margin-bottom: 20px;
+
+    transition: all 400ms;
+}
+
+section#plans .card:hover{
+    box-shadow: 5px 5px 30px black;
+    background: linear-gradient(rgb(130, 130, 212),#5A47CC);
+    color:white;
 }
 
 section#plans h5{
     font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(97, 94, 94);
+    font-size:1.8rem;
 }
 
 section#plans h5, h4{
-    border-bottom:1px gray solid;
+    border-bottom:1px rgb(218, 212, 212) solid;
     padding: 15px;
 }
 
 section#plans h4{
     color: #5A47CC;
+    font-size:3.5rem
 }
 
 section#plans li{
-    margin:10px;
+    margin:2rem;
+    font-size:1.8rem;
 }
 
 /* how */
@@ -96,10 +152,13 @@ section#plans li{
 section#how{
     background: #5A47CC;
     padding: 20px;
+    height: auto;
+    min-height: 65rem;
 }
 
 section#how h2{
     color:white;
+    font-size:3.8rem;
 }
 
 section#how span{
@@ -108,12 +167,50 @@ section#how span{
     margin: 5px;
     border-radius: 50%;
     color:white;
+    font-size: 1.8rem;
 }
 
 section#how p{
     display: inline;
     margin: 10px;
+    font-size:2.4rem;
+}
+
+section#how .card-body{
+    font-size: 1.8rem;
+}
+
+section#how .accordion{
+    max-width: 97rem;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+section#buy{
+    padding: 20px;
+}
+
+section#buy .redirect{
+    margin-bottom: 50px;
+}
+
+section#buy .container>h2{
+    font-size:3.8rem;
+}
+
+section#buy .container>p{
+    font-size:2.2rem;
 }
 
 
+@media (max-width:390px){
 
+    section#how p{
+        font-size:1.6rem;
+    }
+
+    
+
+
+
+}
