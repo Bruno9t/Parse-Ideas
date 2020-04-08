@@ -2,7 +2,7 @@ body{
     background: #E5E5E5;
 }
 
-.container>div>figure{
+main .container>div>figure{
     margin:auto 0;
 }
 
@@ -32,26 +32,26 @@ body{
     font-size:3.8rem;
 }
 
-.container>div{
+main .container>div{
     margin:50px auto;
 }
 
-.container form label{
+main .container form label{
     font-size:1.8rem;
 }
 
-.container form input, .container form select{
+main .container form input, .container form select{
     height: 5rem;
     border:none;
     box-shadow: 5px 5px 10px gray;
     border-radius: 5px;
 }
 
-div.row div{
+main div.row div{
     margin:30px auto;
 }
 
-.container form input::placeholder{
+main .container form input::placeholder{
     font-size:1.6rem;
 }
 
