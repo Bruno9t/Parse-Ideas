@@ -11,12 +11,54 @@ body{
     font-size: 62.5%;
 }
 
+header li{
+    margin:auto 5px;
+}
+
+/* for user */
+div.dropdown-menu{
+    left:-100px;
+    background: linear-gradient(blue,#5A47CC);
+    border:none;
+    font-size: 1.6rem;
+}
+a#dropdownMenuLink{
+    background: linear-gradient(blue,#5A47CC);
+    border:none;
+}
+
+a.dropdown-item{
+    color:white;
+}
+
+a.dropdown-item:hover{
+    background: linear-gradient(#5A47CC,cornflowerblue);
+}
+
+span.ic img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+}
+
+@media (max-width:991px){
+    li#user{
+        display: none;
+    }
+}
+/*  */
+
+
 body{
     background-color: #FFFFFF;
 }
 
+h1{
+    font-size: 4rem;
+}
+
 h2{
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
 
 .btn-group-lg>.btn, .btn-lg{
@@ -38,6 +80,7 @@ h2{
     border-color:#5A47CC;
     font-size: 1.5rem;
 }
+
 
 footer{
     background-color: #1c1c1c;

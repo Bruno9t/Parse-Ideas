@@ -11,12 +11,13 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" -->
         <!-- integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">    
+    <link rel="stylesheet" href="../css/bootstrap.min.css">    
 
     <!-- Base CSS -->      
-    <link rel="stylesheet" href="./css/base.css">
-    
+    <link rel="stylesheet" href="../css/base.css">
+
     <!-- createAd CSS -->
+    <link rel="stylesheet" href="../css/createAd.css">
 
 </head>
 
@@ -24,7 +25,7 @@
     <header>
         <!-- Menu Parse Ideias -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html"><img src="./images/Parse Ideias-logo (1).png" alt="" srcset=""
+            <a class="navbar-brand" href="../index.html"><img src="../images/Parse Ideias-logo (1).png" alt=""
                     width="200"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
                 aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,32 +35,282 @@
             <div class="collapse navbar-collapse" id="mainMenu">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">E-Commerce</a>
+                        <a class="nav-link" href="../pages/searchEcommerce.html">E-Commerce</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Redes Sociais</a>
+                        <a class="nav-link" href="../pages/searchSocialMedia.html">Redes Sociais</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Soluções</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-sm btn-primary" href="/pages/viewAdPlans.html">Anuncie e venda seu negócio</a>
+                        <a class="nav-link btn btn-sm btn-primary" href="../pages/viewAdPlans.html">Anuncie e venda seu negócio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#modal">Login</a>
+                    <li id='user' class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img id ='us'src="../svg/profile-user.svg" alt="">
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/email.svg" alt=""></span> Minhas mensagens</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/notification.svg" alt=""></span>Meus alertas</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/plus.svg" alt=""></span>Criar anúncio</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/user.svg" alt=""></span>Meu perfil</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/logout.svg" alt=""></span>Sair</a>
+                            </div>
                     </li>
+                    
                 </ul>
             </div>
         </nav>
+
     </header>
 
+    <main>
+
+        <div class="container">
+
+            <div id='icon'>
+                <figure>
+                    <img src="../svg/info.svg" alt="imagem para informações">
+                </figure>
+
+                <h2>Informações</h2>
+            </div>
+
+            <section id="form">
+
+                <form action="./payment.html">
+                    <article>
+                    <div class="row">
+
+                        <div class="col-md-6 col-sm-12">
+                            <label for="title">Título do anúncio</label>
+                            <input type="text" class="form-control" name='title' id='title'>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12">
+                            
+                            <label for="type">Tipo do negocio</label>
+                            <select name="type" class="form-control" id="type">
+                                <option value="">Todos</option>
+                                <option value="">E-Commerce</option>
+                                <option value="">Redes Sociais</option>
+                                <option value="">Soluções</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="price">Preço de venda*</label>
+                            <input type="number" class="form-control" name='price' id='price'>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="stock">Valor estimado do estoque*</label>
+                            <input type="number" class="form-control" name='stock' id='stock'>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="revenues">Faturamento médio mensal*</label>
+                            <input type="number" class="form-control" name='revenues' id='revenues'>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="profit">Lucro mensal*</label>
+                            <input type="number" class="form-control" name='profit' id='profit'>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="age">Idade da empresa*</label>
+                            <input type="text" class="form-control" name='age' id='age'>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12">
+                            <label for="reason">Motivo da venda*</label>
+                            <input type="text" class="form-control" name='reason' id='reason'>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="employees">Funcionários*</label>
+                            <input type="text" class="form-control" name='employees' id='employees'>
+                        </div>
+                    </div>
+
+    
+                    <div class="row">
+
+                        <div class="col">
+                            <label for="exampleFormControlTextarea1">Descrição do anúncio*</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+
+                    </div>
+                </article>
+
+                <article id='ad-files'>
+
+                    <div id='icon'>
+                        <figure>
+                            <img src="../svg/photo.svg" alt="imagem para informações">
+                        </figure>
+        
+                        <h2>Fotos e PDF</h2>
+                    </div>
+
+                    <div id='files'>
+                       <div>
+                            <input type="file" class='form-control' name="foto" id="input-foto">
+
+                            <div id='label-1'>
+                                <label for="input-foto">
+                                    <img src="../svg/photo2.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+
+                            <input type="file" class='form-control' name="pdf" id="input-pdf">
+                            <div id='label-2'>
+                                <label for="input-pdf">Anexar PDF</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article>
+
+                    <div id='icon'>
+                        <figure>
+                            <img src='../svg/contact.svg' alt="imagem para informações">
+                        </figure>
+        
+                        <h2>Dados de contato</h2>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="name">Nome*</label>
+                            <input type="text" class="form-control" name='name' id='name'>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="email">E-mail*</label>
+                            <input type="email" class="form-control" name='email' id='email'>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="cel">Celular*</label>
+                            <input type="tel" class="form-control" name='cel' id='cel'>
+                        </div>
+
+                        <div class="col-md-3 col-sm-12">
+                            <label for="tel">Telefone*</label>
+                            <input type="tel" class="form-control" name='tel' id='tel'>
+                        </div>
+
+                    </div>
+
+                </article>
+
+                <div class='redirect'>
+                    <a>
+                        <button class='btn btn-md btn-primary'>Avançar</button>
+                    </a>
+                </div>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </main>
 
 
+
+
+
+ <!-- Inicio Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <img src="../images/Parse Ideias-logo-white.png" alt="" width="100%">
+                    <!-- <hr> -->
+                    <p class="m-0">Siga-nos nas redes sociais</p>
+                    <div class="icons-socialmedia">
+                        <a href="#" class="mr-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="mr-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2 class="mt-5">Sobre Nós</h2>
+
+                    <nav>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Quem Somos</a></li>
+                            <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                            <li class="list-group-item"><a href="#">Ajuda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2 class="mt-5">Comprar um Negócio</h2>
+                    <nav>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">E-Commerce</a></li>
+                            <li class="list-group-item"><a href="#">Redes Sociais</a></li>
+                            <li class="list-group-item"><a href="#">Soluções</a></li>
+                            <li class="list-group-item"><a href="#">Páginas Web à Venda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center py-3 m-0">&copy; Copyright 2020, Parse Ideias, All rights reserved</p>
+    </footer>
+    <!-- Fim Footer -->
+
+
+    <!-- Import Jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script> -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <!-- Import Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <!-- Import Bootstrap JS -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script> -->
+
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Import Font Awesome -->
+    <script src="https://kit.fontawesome.com/c439770d8e.js" crossorigin="anonymous"></script>
+    
     </body>
 </html>

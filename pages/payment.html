@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/icon-lamp.png" type="image/x-icon">
+    <title>Parse Ideias - Home</title>
+
+    <!-- Import Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" -->
+        <!-- integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">    
+
+    <!-- Base CSS -->      
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- payment CSS -->
+    <link rel="stylesheet" href="../css/payment.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Menu Parse Ideias -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img src="../images/Parse Ideias-logo (1).png" alt=""
+                    width="200"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/searchEcommerce.html">E-Commerce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/searchSocialMedia.html">Redes Sociais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Soluções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-sm btn-primary" href="../pages/viewAdPlans.html">Anuncie e venda seu negócio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li id='user' class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="../svg/profile-user.svg" alt="">
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/email.svg" alt=""></span> Minhas mensagens</a>
+                              <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/notification.svg" alt=""></span>Meus alertas</a>
+                              <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/plus.svg" alt=""></span>Criar anúncio</a>
+                              <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/user.svg" alt=""></span>Meu perfil</a>
+                              <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/logout.svg" alt=""></span>Sair</a>
+                            </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+
+            <div class="container">
+                <h1 class='text-center'>Quase lá!</h1>
+
+                <div class="row">
+                <div id="pay" class='col-md-7 col-sm-12'>
+                    <div>
+                        <h2>Formas de pagamento</h2>
+                        <div>
+                            <input type="radio" name="billet" id="">
+                            <label for="billet">Pagar com boleto</label>
+                        </div>
+                    </div>
+
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+                        <label id='label-1' class="btn btn-info active">
+                          <input type="radio" name="options" id="option1" autocomplete="off" checked> Cartão de crédito
+                        </label>
+
+                        <label id='label-2' class="btn btn-info">
+                          <input type="radio" name="options" id="option2" autocomplete="off"> Cartão de débito
+                        </label>
+                    
+                      </div>
+
+                      <form>
+                        <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="name">Nome</label>
+                                    <input type="text" class="form-control" id="name" placeholder="ex: Rafael da Silva">
+                                </div>
+
+                                <!-- <div class="form-group col-md-6">
+                                    <label for="month">Data de expiração</label>
+                                    <input type="month" class='form-control' name="month" id="date">
+                                </div> -->
+                        </div>
+
+                        <div class="form-row">
+
+                            <div class="form-group col-md-6">
+                                <label for="cardnumber">Número do cartão</label>
+                                <input type="number" class="form-control" id="name" placeholder="ex: 9999 9999 9999 999">
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label for="securitycode">Código de segurança</label>
+                                <input type="number" class="form-control" id="name" placeholder="XXX">
+                            </div>
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputMonth">Mês de expiração</label>
+                                <select id="inputState" class="form-control">
+                                  <option selected>Escolher...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+
+                              <div class="form-group col-md-6">
+                                <label for="inputYear">Ano de expiração</label>
+                                <select id="inputYear" class="form-control">
+                                  <option selected>Escolher...</option>
+                                  <option>...</option>
+                                </select>
+                              </div>
+                        </div>
+
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Lembrar de mim!
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Efetuar pagamento</button>
+                        <span>Informações seguras e criptografadas</span>
+                        <hr>
+                      </form>
+
+                </div>
+
+                <div id="value" class='col-md-5 col-sm-12'>
+
+                    <div class="card" >
+                          <div class="card-body">
+                            <h5 class="card-title">Seu pedido</h5>
+                            <div>
+                                <div class='planvalue'>
+                                    <p>Plano basic</p>
+                                    <p>R$49,90</p>
+
+                                </div>
+                                <div class='planvalue' id='total'>
+
+                                    <p>Total</p>
+                                    <p>R$49,90</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <!-- Inicio Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <img src="../images/Parse Ideias-logo-white.png" alt="" width="100%">
+                    <!-- <hr> -->
+                    <p class="m-0">Siga-nos nas redes sociais</p>
+                    <div class="icons-socialmedia">
+                        <a href="#" class="mr-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="mr-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2 class="mt-5">Sobre Nós</h2>
+
+                    <nav>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Quem Somos</a></li>
+                            <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                            <li class="list-group-item"><a href="#">Ajuda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2 class="mt-5">Comprar um Negócio</h2>
+                    <nav>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">E-Commerce</a></li>
+                            <li class="list-group-item"><a href="#">Redes Sociais</a></li>
+                            <li class="list-group-item"><a href="#">Soluções</a></li>
+                            <li class="list-group-item"><a href="#">Páginas Web à Venda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+        <p class="text-center py-3 m-0">&copy; Copyright 2020, Parse Ideias, All rights reserved</p>
+    </footer>
+    <!-- Fim Footer -->
+
+    <!-- Import Jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script> -->
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <script src="../js/date.js"></script>
+
+    <!-- Import Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <!-- Import Bootstrap JS
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script> -->
+
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Import Font Awesome -->
+    <script src="https://kit.fontawesome.com/c439770d8e.js" crossorigin="anonymous"></script>
+</body>
+</html>

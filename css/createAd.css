@@ -1,0 +1,166 @@
+body{
+    background: #E5E5E5;
+}
+
+.container>div>figure{
+    margin:auto 0;
+}
+
+#user img#us{
+    width: 45px;
+    height: 45px;
+}
+
+
+/* .container>div>h2 ,.container>div>figure{
+    display: inline;
+} */
+
+#icon{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top:30px;
+}
+
+#icon figure img{
+    width: 60px;
+    height: 60px;
+}
+
+#icon h2{
+    margin: auto 20px;
+    font-size:3.8rem;
+}
+
+.container>div{
+    margin:50px auto;
+}
+
+.container form label{
+    font-size:1.8rem;
+}
+
+.container form input, .container form select{
+    height: 5rem;
+    border:none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+
+div.row div{
+    margin:30px auto;
+}
+
+.container form input::placeholder{
+    font-size:1.6rem;
+}
+
+.container textarea{
+    resize: none;
+    height: 232px;
+    border:none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+
+}
+
+input[ type='file' ] {
+    display:none;
+    position: absolute;
+    z-index:2;
+
+  }
+
+
+
+#files #label-2 label{
+    position: relative;
+    background-color: #5A47CC;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px 20px;
+    z-index:1;
+    text-align: center;
+    margin: 50px 50px 50px auto;
+
+  }
+
+  #files #label-1{
+    border: 2px gray dashed;
+    width: 150px;
+    border-radius: 5px;
+    height: 110px;
+    margin: 50px 50px 50px auto;
+    text-align: center;
+  }
+
+  #files #label-1 img{
+    width: 100%;
+    background-size: cover;
+    height: 110px;
+    cursor: pointer;
+  }
+
+
+#files{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+#files input{
+    margin-right:50px;
+}
+
+#files>input{
+    max-width: 112px;
+    max-height: 112px;
+}
+
+.redirect{
+    margin:30px auto;
+    text-align: center;
+}
+
+.redirect button{
+    font-size: 2.2rem;
+    padding: 10px;
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+
+}
+
+
+
+
+@media (max-width:1200px){
+    html,body{
+        font-size:41%;
+    }
+
+
+}
+
+@media (max-width:767px){
+    html,body{
+        font-size:0.7rem;
+    }
+}
+
+@media (max-width:464px){
+    #icon h2{
+        font-size: 2.4rem;
+    }
+}
+
+
+
+
+
+

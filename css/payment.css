@@ -1,0 +1,164 @@
+head li{
+    
+}
+
+h1{
+    font-size: 4rem;
+    padding: 20px;
+    font-style: none;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+span.ic img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+/* payment div */
+
+.section>div.row{
+    margin-top: 100px;
+}
+
+#pay{
+    padding: 50px;
+}
+
+#pay>div label{
+    font-size: 1.8rem;
+}
+
+#pay>div div{
+    border-top:1px gray solid;
+    border-bottom:1px gray solid;
+    padding: 20px;
+}
+
+#label-1,#label-2{
+    padding: 10px;
+}
+
+section form button.btn{
+    font-size: 2rem;
+    border:none;
+    padding: 10px;
+}
+
+/* input[type='checkbox'],input[type='radio']{
+    
+} */
+
+form label {
+    font-size: 1.8rem;
+}
+
+form input::placeholder{
+    font-size: 1.6rem;
+}
+
+section .form-row input, section form select.form-control{
+    height: 5rem;
+    border:none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+
+section div.row form div,div#pay div{
+    margin:15px auto;
+}
+section span{
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+hr{
+    border-bottom: 1px gray solid;
+}
+
+
+
+/* value of payment */
+
+
+
+.planvalue{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+#total{
+    font-weight: bold;
+    border-top: 1px gray solid;
+}
+
+#value{
+    font-size: 1.8rem;
+}
+
+section .card-body{
+    width: 100%;
+}
+
+section .card{
+    background: #5A47CC;
+    min-height: 260px;
+    height: auto;
+    margin-top: 90px;
+}
+
+section .card div.card-body{
+ padding: 20px;
+}
+
+
+.container .card-body>div{
+    background: white;
+    padding: 10px;
+
+}
+
+section .card-body p{
+    padding: 10px;
+}
+
+section h5{
+    font-size:2.2rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    form label {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:767px){
+    form label {
+        font-size: 1.6rem;
+    }
+
+    section .card{
+        margin-top:20px;
+    }
+    section #pay{
+        padding: 20px;
+    }
+}
+
+
+
+
