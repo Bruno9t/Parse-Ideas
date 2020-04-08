@@ -48,6 +48,10 @@ span.ic img{
 }
 /*  */
 
+input[type='radio']{
+    margin-right: 10px;
+}
+
 
 body{
     background-color: #FFFFFF;
