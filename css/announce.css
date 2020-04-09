@@ -1,0 +1,180 @@
+nav.navbar {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section#businessType h2 {
+  font-size: 3.8rem;
+  color: rgb(100, 96, 96);
+}
+
+section#businessType div.container {
+  min-height: 55em;
+}
+
+section#businessType div.container div.row{
+  margin-bottom: 20px;
+}
+
+div#e-commerce {
+  background: #72CEC1;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+div#site {
+  background: #FED390;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+div#social-network {
+  background: #7CADC1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+div#solution {
+  background: #FF7F5C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+div.card.business-card {
+  min-height: 25em;
+  max-height: 30em;
+  min-width: 30em;
+  max-width: 40em;
+}
+
+div.card-body.business-card-body {
+  display: flex;
+  padding-top: 15px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+div.card-body.business-card-body h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 0.65em;
+}
+
+div.card-body.business-card-body p.card-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-bottom: 0.65em;
+}
+
+section#businessType div.card-body input {
+  width: 25px;
+  height: 25px;
+}
+
+section#monthly-plan {
+  background-color: #f2f2f2;
+}
+
+section#monthly-plan div.container {
+  min-height: 80em;
+}
+
+section#monthly-plan div.card {
+  min-height: 65em;
+}
+
+section#monthly-plan {
+  background: #E5E5E5;
+  padding: 20px;
+}
+
+section#monthly-plan h2{
+  font-size:3.8rem;
+  color: rgb(100, 96, 96);
+}
+
+section#monthly-plan .row{
+  margin-bottom: 50px;
+}
+
+section#monthly-plan .card{
+  border:1px rgb(218, 212, 212) solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  transition: all 400ms;
+}
+
+section#monthly-plan h5{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(97, 94, 94);
+  font-size:1.8rem;
+}
+
+section#monthly-plan h5, h4{
+  border-bottom:1px rgb(218, 212, 212) solid;
+  padding: 15px;
+}
+
+section#monthly-plan h4{
+  color: #2196F3;
+  font-size:3.5rem
+}
+
+section#monthly-plan ul {
+  list-style: none;
+}
+
+section#monthly-plan li::before{
+  content: "◦";
+  color: #2196F3;
+  margin-right: 0.8em;
+}
+
+section#monthly-plan li{
+  margin:2rem 2rem 2rem 0;
+  font-size:1.8rem;
+}
+
+section#monthly-plan div.card 
+div.card-body a.btn{
+  background: #FFFFFF;
+  border: 1px solid #2196F3;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #2196F3;
+  font-size: 2em;
+}
+
+section#monthly-plan div.card 
+div.card-body a.btn:hover{
+  background: #5A47CC;
+  color:white;
+  border: 1px solid #5A47CC;
+}
+
+section#monthly-plan a.btn-success {
+  max-width: 180px;
+  paddin: 0;
+  margin: auto;
+  border-radius: 5px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+}
