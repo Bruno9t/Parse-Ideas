@@ -1,0 +1,132 @@
+nav.navbar {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section#previewAnnounce {
+  background-color: rgba(44, 24, 161, 0.08);
+}
+
+section#previewAnnounce h2 {
+  font-size: 3.8rem;
+  color: rgb(100, 96, 96);
+}
+
+section#previewAnnounce div.container {
+  min-height: 55em;
+}
+
+section#previewAnnounce div.container div.row{
+  margin-bottom: 20px;
+}
+
+section#previewAnnounce div.container div#announce{
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+div#fotoHeader {
+  background-image: url('../images/inicial.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 21.6em
+}
+
+div#fotoAnuncio {
+  background-color: rgba(188, 187, 193, 0.6);
+  width: 100%;
+  padding-bottom: 4rem;
+}
+
+div#fotoAnuncio div.btn-primary {
+  font-size: 11px;
+  background-color: rgba(185, 0, 166, 0.8);
+  border-color: rgba(185, 0, 166, 0.8);
+}
+
+div#fotoAnuncio h3 {
+  font-size: 1.8rem;
+  color: rgb(100, 96, 96);
+}
+
+div#fotoAnuncio h2 {
+  font-size: 2.8rem;
+  color: #5A47CC;
+}
+
+div#description {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  width: 100%;
+}
+
+div#description div.row div.col-md-6 h3 {
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+div#description div.row div.col-md-6 p{
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+div#description div.row div.col-md-6 {
+  padding: 1rem 7rem;
+}
+
+div#description div.row div.col-md-6 mark {
+  background-color: inherit;
+  color: #5A47CC;
+}
+
+div#message {
+  background-color: rgba(44, 24, 161, 0.04);
+  padding-top: 4rem;
+}
+
+div#message h3 {
+  font-size: 2.7rem;
+  color: rgb(100, 96, 96);
+}
+
+div#message form.my-4 {
+  padding: 1rem 33rem;
+}
+
+div#message form input {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  height: 5rem;
+  color: #A8A8A8;
+  border: 0px;
+}
+
+div#message form textarea {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  color: #A8A8A8;
+  border: 0px;
+  resize: none;
+}
+
+div#message form button {
+  width: 20rem;
+  margin-top: 2.5rem;
+  border-radius: 10px;
+  background-color: #9084D9;
+  border-color: #9084D9;
+}
+
+div#attention {
+  background-color: #5A47CC;
+  color: #FFFFFF;
+  padding: 8rem 5rem;
+}
+
+div#next {
+  padding: 7rem 0;
+}
