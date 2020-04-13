@@ -54,7 +54,6 @@ main>h2{
 
 #accordion>.container-fluid div.item{
     display: inline-block;
-    scroll-snap-align: center;
     height: 180px;
     width: 180px;
     margin: auto 10px;
@@ -184,18 +183,6 @@ input[type='file']{
     font-size: 1.6rem;
 }
 
-@media (min-width:1228px){
-    ::-webkit-scrollbar-track {
-        background-color: white;
-    }
-    ::-webkit-scrollbar {
-        width: 6px;
-        background: #F4F4F4;
-    }
-    ::-webkit-scrollbar-thumb {
-        background: #dad7d7;
-    }
-}
 
 div#headingThree.btn[aria-expanded="true"] img{
     position: relative;
@@ -306,3 +293,34 @@ div#headingOne.btn[aria-expanded="true"] img#heart {
 
 }
 
+
+@media (min-width:1228px){
+    ::-webkit-scrollbar-track {
+        background-color: white;
+    }
+    ::-webkit-scrollbar {
+        width: 6px;
+        background: #F4F4F4;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #dad7d7;
+    }
+}
+
+@media (max-width:500px){
+
+    #accordion>.container-fluid div.item{
+        display: inline-block;
+        scroll-snap-align: center;
+        height: 180px;
+        width: 180px;
+        margin: auto 10px;
+        cursor: pointer;
+    }
+
+    #accordion>.container-fluid{
+        text-align: center;
+        scroll-snap-type: x mandatory
+    }
+    
+}
