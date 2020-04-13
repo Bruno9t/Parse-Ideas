@@ -26,6 +26,13 @@ main>h2{
 
   }
 
+  main {
+    min-height:100%;
+    position:relative;
+  }
+
+
+
  
 
   #user-img figure{
@@ -47,6 +54,7 @@ main>h2{
 
 #accordion>.container-fluid div.item{
     display: inline-block;
+    scroll-snap-align: center;
     height: 180px;
     width: 180px;
     margin: auto 10px;
@@ -64,8 +72,12 @@ main>h2{
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    text-align: center;
     padding: 20px;
+}
+
+#accordion>.container-fluid{
+    text-align: center;
+    scroll-snap-type: x mandatory
 }
 
 
@@ -137,9 +149,12 @@ input{
     padding: 10px;
 }
 
-#content .container{
-    padding: 30px;
-}
+/* #content{
+    overflow: hidden;
+} */
+
+
+
 
 #butt{
     margin:30px auto;
