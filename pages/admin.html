@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icon-lamp.png" type="image/x-icon">
+    <title>Parse Ideias - Home</title>
+
+    <!-- Import Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" -->
+        <!-- integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">    
+
+    <!-- Base CSS -->      
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- createAd CSS -->
+    <link rel="stylesheet" href="../css/admin.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Menu Parse Ideias -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img src="../images/Parse Ideias-logo (1).png" alt=""
+                    width="200"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/searchEcommerce.html">E-Commerce</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/searchSocialMedia.html">Redes Sociais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Soluções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-sm btn-primary" href="../pages/viewAdPlans.html">Anuncie e venda seu negócio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li id='user' class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img id ='us'src="../svg/profile-user.svg" alt="">
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/email.svg" alt=""></span> Minhas mensagens</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/notification.svg" alt=""></span>Meus alertas</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/plus.svg" alt=""></span>Criar anúncio</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/user.svg" alt=""></span>Meu perfil</a>
+                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/logout.svg" alt=""></span>Sair</a>
+                            </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h2 class='text-center'>Painel adminstrativo</h2>
+        <div id="accordion">
+            <section class='container-fluid'>
+            <div class="cont">
+    
+                    <div class='item'>
+                    <div class="btn btn collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            
+                            <div class='card'>
+                                <img src="../svg/user.svg" class="card-img-top" alt="...">
+                                <img src="../svg/heart.svg" alt="" id='heart'>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Eu
+                                    </p>
+                                </div>
+                            </div>
+    
+                          </div>
+                    </div>
+    
+                      <div class='item'>
+                      <div class="btn" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class='card'>
+                            <img src="../svg/email.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Mensagens
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                      
+                    <div class='item'>
+                      <div class="btn" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class='card'>
+                            <img src="../svg/notification.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Alertas
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class='item' >
+                        <div class="btn" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                
+                            <div class='card'>
+                                <img src="../svg/copy.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Anúncios
+                                    </p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                      </div>
+    
+                      <div class='item' >
+                        <div class="btn" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                
+                            <div class='card'>
+                                <img src="../svg/plus.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Criar Anúncio
+                                    </p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                      </div>
+    
+                      <div class='item'>
+                        <div class="btn btn" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                
+                            <div class='card'>
+                                <img src="../svg/logout.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Sair
+                                    </p>
+                                </div>
+                            </div>
+                          
+                        </div>
+    
+                </div>
+    
+            </div>
+            </section>
+                  <section id='content'>
+                    <div class="container">
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                          <form class="form-row">
+                                <div class="col-md-4 col-sm-12">
+    
+                                    <h2>Dados pessoais</h2>
+                                    <input type="text" name="nome" id="" placeholder="nome">
+                                    <input type="text" name="sobrenome" id="" placeholder="sobrenome">
+                                    <input type="text" name="email" id="" placeholder="e-mail">
+                                    
+                                </div>
+    
+                                <div class="col-md-4 col-sm-12">
+    
+                                    <h2>Alteração de senha</h2>
+                                    <input type="text" name="nome" id="" placeholder="senha atual">
+                                    <input type="text" name="sobrenome" id="" placeholder="nova senha">
+                                    <input type="text" name="email" id="" placeholder="confirmar nova senha">
+                                    
+                                </div>
+    
+                                <div class="col-md-4 col-sm-12">
+                                    <div id='user-img'>
+                                    <h2>Avatar</h2>
+
+                                    <figure>
+                                        <img src="../svg/profile-user.svg" alt="">
+                                    </figure>
+
+                                    <div>
+
+                                        <input type="file" class='form-control' name="foto" id="input-image">
+                                        <div id='label-1'>
+                                            <label for="input-image">Anexar Foto</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+    
+                                <div id='butt' class='text-center'>
+                                    <button class='btn btn-danger'> 
+                                        excluir conta
+                                    </button>
+                                    <button class='btn btn-primary'>
+                                        salvar alterações
+                                    </button>
+                                </div>
+                        </form>
+                        </div>
+                      </div>
+        
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <h2>Você tem <span>(0)</span> novas mensagens</h2>
+
+                            <button class='btn btn-primary'>Ver mensagens</button>
+                        </div>
+                      </div>
+        
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <h2>Você tem (<span>0</span>) novos alertas</h2>
+                        </div>
+                      </div>
+                      
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            <div id='contain'>
+                            <table class='table' style="width: 1000px;">
+                                <thead class="thead-dark">
+                                <tr>
+                                  <th>Título</th>
+                                  <th>Visualização</th>
+                                  <th>Status</th>
+                                  <th>Opções</th>
+                                </tr>
+                                <tr>
+                                  <td>rtyrtyr</td>
+                                  <td>ytrtyrtyrt</td>
+                                  <td>rtyrtrty</td>
+                                  <td>trtyrtyr</td>
+                                </tr>
+                                <tr>
+                                    <td>rtyrtyr</td>
+                                    <td>ytrtyrtyrt</td>
+                                    <td>rtyrtrty</td>
+                                    <td>trtyrtyr</td>
+                                  </tr>
+                                  <tr>
+                                    <td>rtyrtyr</td>
+                                    <td>ytrtyrtyrt</td>
+                                    <td>rtyrtrty</td>
+                                    <td>trtyrtyr</td>
+                                  </tr>
+                                  <tr>
+                                    <td>rtyrtyr</td>
+                                    <td>ytrtyrtyrt</td>
+                                    <td>rtyrtrty</td>
+                                    <td>trtyrtyr</td>
+                                  </tr>
+                                  <tr>
+                                    <td>rtyrtyr</td>
+                                    <td>ytrtyrtyrt</td>
+                                    <td>rtyrtrty</td>
+                                    <td>trtyrtyr</td>
+                                  </tr>
+                                  <tr>
+                                    <td>rtyrtyr</td>
+                                    <td>ytrtyrtyrt</td>
+                                    <td>rtyrtrty</td>
+                                    <td>trtyrtyr</td>
+                                  </tr>
+                                  <tr>
+                                    <td>rtyrtyr</td>
+                                    <td>ytrtyrtyrt</td>
+                                    <td>rtyrtrty</td>
+                                    <td>trtyrtyr</td>
+                                  </tr>
+                              </table>
+                            </div>
+                        </div>
+                      </div>
+        
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                Wer reitet so spät durch Nacht und Wind?
+                                Es ist der Vater mit seinem Kind;
+                                Er hat den Knaben wohl in dem Arm,
+                                Er faßt ihn sicher, er hält ihn warm.
+                                
+                                "Mein Sohn, was birgst du so bang dein Gesicht?" –
+                                "Siehst, Vater, du den Erlkönig nicht?
+                                Den Erlenkönig mit Kron und Schweif?" –
+                                "Mein Sohn, es ist ein Nebelstreif."
+                                
+                                "Du liebes Kind, komm, geh mit mir!
+                                Gar schöne Spiele spiel' ich mit dir;
+                                Manch' bunte Blumen sind an dem Strand,
+                                Meine Mutter hat manch gülden Gewand." –
+                                
+                                "Mein Vater, mein Vater, und hörest du nicht,
+                                Was Erlenkönig mir leise verspricht?" –
+                                "Sei ruhig, bleibe ruhig, mein Kind;
+                                In dürren Blättern säuselt der Wind." –
+                                
+                                "Willst, feiner Knabe, du mit mir gehen?
+                                Meine Töchter sollen dich warten schön;
+                                Meine Töchter führen den nächtlichen Reihn,
+                                Und wiegen und tanzen und singen dich ein." –
+                                
+                                "Mein Vater, mein Vater, und siehst du nicht dort
+                                Erlkönigs Töchter am düstern Ort?" –
+                                "Mein Sohn, mein Sohn, ich seh es genau:
+                                Es scheinen die alten Weiden so grau. –"
+                                
+                                "Ich liebe dich, mich reizt deine schöne Gestalt;
+                                Und bist du nicht willig, so brauch ich Gewalt." –
+                                "Mein Vater, mein Vater, jetzt faßt er mich an!
+                                Erlkönig hat mir ein Leids getan!" –
+                                
+                                Dem Vater grauset's, er reitet geschwind,
+                                Er hält in Armen das ächzende Kind,
+                                Erreicht den Hof mit Müh' und Not;
+                                In seinen Armen das Kind war tot.
+                            </div>
+                          </div>
+        
+                          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                            <div class="card-body text-center">
+                             <h2>Deseja realmente sair?</h2>
+
+                             <div id='butt' class='text-center'>
+                                <button class="btn btn" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Cancelar
+                                </button>
+                                <button class='btn btn-danger'> 
+                                    Sair
+                                </button>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                        </section>
+                </div>
+            </main>
+
+     <!-- Inicio Footer -->
+     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <img src="../images/Parse Ideias-logo-white.png" alt="" width="100%">
+                    <!-- <hr> -->
+                    <p class="m-0">Siga-nos nas redes sociais</p>
+                    <div class="icons-socialmedia">
+                        <a href="#" class="mr-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="mr-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2 class="mt-5">Sobre Nós</h2>
+
+                    <nav>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">Quem Somos</a></li>
+                            <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                            <li class="list-group-item"><a href="#">Ajuda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2 class="mt-5">Comprar um Negócio</h2>
+                    <nav>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">E-Commerce</a></li>
+                            <li class="list-group-item"><a href="#">Redes Sociais</a></li>
+                            <li class="list-group-item"><a href="#">Soluções</a></li>
+                            <li class="list-group-item"><a href="#">Páginas Web à Venda</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center py-3 m-0">&copy; Copyright 2020, Parse Ideias, All rights reserved</p>
+    </footer>
+    <!-- Fim Footer -->
+
+
+    <!-- Import Jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script> -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+
+    <!-- Import Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <!-- Import Bootstrap JS -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script> -->
+
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Import Font Awesome -->
+    <script src="https://kit.fontawesome.com/c439770d8e.js" crossorigin="anonymous"></script>
+    
+    </body>
+</html>

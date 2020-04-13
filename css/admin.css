@@ -1,0 +1,293 @@
+
+main>h2{
+    margin:30px;
+}
+
+.card{
+    border:none;
+    background: transparent;
+}
+
+.item .card p{
+    font-size: 1.8rem;
+}
+
+#label-1 label{
+    position: relative;
+    background-color: #5A47CC;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px 20px;
+    z-index:1;
+    text-align: center;
+    margin: 50px 50px 50px auto;
+
+  }
+
+ 
+
+  #user-img figure{
+      height: 100px;
+      width: 100px;
+  }
+
+  #user-img figure img{
+    height: 100%;
+    width: 100%;
+}
+
+  input[ type='file' ] {
+    display:none;
+    position: absolute;
+    z-index:2;
+
+  }
+
+#accordion>.container-fluid div.item{
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+
+#accordion>.container-fluid div.item img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+#accordion>.container-fluid,#contain{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
+    padding: 20px;
+}
+
+
+div#headingOne.btn,
+div#headingTwo.btn,
+div#headingThree.btn,
+div#headingFour.btn,
+div#headingFive.btn,
+div#headingSix.btn{
+    width: 100%;
+    height: max-content;
+    padding: 0;
+    padding: 20px;
+    border-radius: 5px;
+    border:2px #F2F2F2 solid;
+
+}
+
+div#headingOne.btn[aria-expanded="true"],
+div#headingTwo.btn[aria-expanded="true"],
+div#headingThree.btn[aria-expanded="true"],
+div#headingFour.btn[aria-expanded="true"],
+div#headingFive.btn[aria-expanded="true"],
+div#headingSix.btn[aria-expanded="true"]{
+    box-shadow: 5px 5px 10px gray;
+    color:white;
+    border:none;
+}
+
+div#headingOne.btn[aria-expanded="true"]{
+    background-color: rgb(104, 104, 228);
+}
+
+div#headingTwo.btn[aria-expanded="true"]{
+    background-color: rgb(241, 241, 50);
+}
+
+div#headingThree.btn[aria-expanded="true"]{
+    background-color: rgb(240, 240, 90);
+}
+
+div#headingFour.btn[aria-expanded="true"]{
+    background-color: turquoise;
+}
+
+div#headingFive.btn[aria-expanded="true"]{
+    background-color: rgb(61, 211, 61);
+}
+
+div#headingSix.btn[aria-expanded="true"]{
+    background-color: rgb(212, 21, 21);
+}
+
+#accordion .col-md-2{
+    border:none;
+}
+
+
+input{
+    height: 50px;
+    border:none;
+    width: 100%;
+    margin:10px auto;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.form-row div.col-md-4{
+    padding: 10px;
+}
+
+#content .container{
+    padding: 30px;
+}
+
+#butt{
+    margin:30px auto;
+}
+
+#butt button{
+    width: 230px;
+    margin:10px;
+}
+
+input::placeholder{
+    font-size: 1.6rem;
+}
+
+main section#content{
+    font-size: 16px;
+    background: #F2F2F2;
+    margin-top:35px;
+    height: auto;
+}
+
+#butt button,.btn{
+    font-size: 1.8rem;
+}
+
+input[type='file']{
+    font-size: 1.6rem;
+}
+
+@media (min-width:1228px){
+    ::-webkit-scrollbar-track {
+        background-color: white;
+    }
+    ::-webkit-scrollbar {
+        width: 6px;
+        background: #F4F4F4;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #dad7d7;
+    }
+}
+
+div#headingThree.btn[aria-expanded="true"] img{
+    position: relative;
+    animation: mymove 1s;
+  }
+
+  @keyframes mymove{
+      0%{
+          transform: rotate(0deg);
+      }
+      25%{
+        transform: rotate(-30deg);
+      }
+      50%{
+        transform: rotate(30deg); 
+      }
+      75%{
+          transform: rotate(-30deg);
+      }
+      100%{
+          transform: rotate(0);
+      }
+  }
+
+  div#headingFive.btn[aria-expanded="true"] img{
+    position: relative;
+    animation: mymove2 1s;
+
+  }
+
+  @keyframes mymove2{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+  }
+
+  div#headingSix.btn[aria-expanded="true"] img{
+    position: relative;
+    animation: mymove3 1s;
+
+  }
+
+  @keyframes mymove3{
+
+      0%{
+          right:0;
+      }
+      25%{
+          right: 30px;
+      }
+      to{
+          right: 0;
+      }
+      
+  }
+
+  div#headingTwo.btn[aria-expanded="true"] img{
+    position: relative;
+    animation: mymove4 1s;
+  }
+
+  @keyframes mymove4{
+      0%{
+          transform: scale(1,1);
+      }
+      25%{
+          transform: scale(1.5,1.5);
+      }
+      to{
+          transform: (1,1);
+      }
+  }
+
+  div#headingOne.btn[aria-expanded="false"] img#heart {
+    display: none;
+}
+
+
+div#headingOne.btn[aria-expanded="true"] img#heart {
+    position: relative;
+    animation: myframe 2s infinite;
+
+}
+
+@keyframes myframe{
+    0%{
+        transform: scale(1,1);
+        
+    }
+    20%{
+        transform: scale(1.5,1.5);
+
+    }
+    40%{
+        transform: scale(1,1);
+
+    }
+    60%{
+        transform: scale(1.5,1.5);
+ 
+    }
+    80%{
+        transform: scale(1,1);
+    }
+
+}
+
