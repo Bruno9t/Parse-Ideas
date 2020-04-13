@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EAE8F6;
+}
+
+/* === Navbar === */
+div.nav-bg {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 6px 11px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 11px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 11px -7px rgba(0,0,0,0.75);
+}
+.nav-link {
+  font-size: 13px;
+}
+
+.nav-link.button {
+  background: #5A47CC;
+  border-radius: 5px;
+  color: white!important;
+}
+
+.nav-link.button:hover {
+  opacity: 0.9;
+  transition: 200ms;
+}
+
+/* === Content === */
+.content {
+  height: 100vh;
+}
+.content h1 {
+  font-size: 38px;
+  font-weight: 300;
+  padding-top: 40px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 60px;
+  -webkit-box-shadow: 0px 2px 28px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 28px -9px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 28px -9px rgba(0,0,0,0.75);
+}
+
+.box a {
+  background-color: #F2F2F2;
+  padding: 8px 40px;
+  border-radius: 5px;
+  margin: 0px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #000000;
+}
+
+.box a:hover {
+  opacity: 0.8;
+  transition: 200ms;
+}
+
+/* === Modal === */
+
+button.close {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.modal-title {
+  font-size: 18px;
+}
+
+.form-control {
+  border: 0px;
+  background-color: #f2f2f2;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #1BC017;
+  border-color: #1BC017;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.forget-password a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #898080;
+}
+
+.forget-password a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 575.98px) {
+  .content h1 {
+    font-size: 28px;
+    padding-top: 30px;
+  }
+  .box {
+    margin-top: 30px;
+  }
+  .box a {
+    padding: 4px 10px;
+  }
+  a.btn {
+    font-size: 18px;
+  }
+
+  .icon img{
+    width: 25px;
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 991.98px) { 
+  .nav-link.button{
+    max-width: 200px;
+  }
+}
