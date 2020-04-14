@@ -1,3 +1,7 @@
+
+main{
+  width: 100%;
+}
 nav.navbar {
   background: #FFFFFF;
   border: 1px solid #FFFFFF;
@@ -78,7 +82,14 @@ div#description div.row div.col-md-6 p{
   text-align: justify;
 }
 
-div#description div.row div.col-md-6 {
+form{
+  width: 50%;
+  margin:20px auto 0 auto;
+}
+
+
+
+div#description div.row div.col-md-6.col-sm-12 {
   padding: 1rem 7rem;
 }
 
@@ -108,6 +119,7 @@ div#message form input {
   height: 5rem;
   color: #A8A8A8;
   border: 0px;
+  margin-bottom: 10px;
 }
 
 div#message form textarea {
@@ -120,7 +132,7 @@ div#message form textarea {
 
 div#message form button {
   width: 20rem;
-  margin-top: 2.5rem;
+  margin: 2.5rem auto;
   border-radius: 10px;
   background-color: #9084D9;
   border-color: #9084D9;
@@ -130,6 +142,7 @@ div#attention {
   background-color: #5A47CC;
   color: #FFFFFF;
   padding: 8rem 5rem;
+  width: 100%;
 }
 
 div#next {
@@ -172,9 +185,13 @@ div#next div.col-md-6 {
   }
 }
 
-@media(max-width: 766px) {
+@media(max-width: 768px) {
   div#fotoAnuncio h3 {
     font-size: 2.3rem;
+  }
+
+  form{
+    width: 75%;
   }
   
   div#fotoHeader {
@@ -193,6 +210,11 @@ div#next div.col-md-6 {
 @media(max-width: 574px) {
   div#bg-anuncio {
     padding: 5rem 5rem;
+  }
+
+  div#description div.row div.col-md-6.col-sm-12 {
+    padding: 0.5rem 3.5rem;
+    margin-bottom: 20px;
   }
   
   div#fotoHeader {
