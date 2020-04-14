@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página administrativa para ver suas informações">
     <link rel="shortcut icon" href="./images/icon-lamp.png" type="image/x-icon">
     <title>Parse Ideias - Home</title>
 
@@ -25,8 +26,7 @@
     <header>
         <!-- Menu Parse Ideias -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="../index.html"><img src="../images/Parse Ideias-logo (1).png" alt=""
-                    width="200"></a>
+            <a class="navbar-brand" href="../index.html"><img src="../images/ParseIdeias-logo(1).png" alt="logo parse-ideas" width="200"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
                 aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,15 +54,15 @@
                     </li>
                     <li id='user' class="dropdown">
                             <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img id ='us'src="../svg/profile-user.svg" alt="">
+                                <img id ='us' src="../svg/profile-user.svg" alt="">
                             </a>
                           
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/email.svg" alt=""></span> Minhas mensagens</a>
-                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/notification.svg" alt=""></span>Meus alertas</a>
-                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/plus.svg" alt=""></span>Criar anúncio</a>
-                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/user.svg" alt=""></span>Meu perfil</a>
-                                <a class="dropdown-item" href="#"><span class='ic'><img src="../svg/logout.svg" alt=""></span>Sair</a>
+                                <a role='button' class="dropdown-item" href="#"><span class='ic'><img src="../svg/email.svg" alt="imagem de carta que simboliza um email"></span> Minhas mensagens</a>
+                                <a role='button' class="dropdown-item" href="#"><span class='ic'><img src="../svg/notification.svg" alt="sino de notificação"></span>Meus alertas</a>
+                                <a role='button' class="dropdown-item" href="#"><span class='ic'><img src="../svg/plus.svg" alt="sinal de soma"></span>Criar anúncio</a>
+                                <a role='button' class="dropdown-item" href="#"><span class='ic'><img src="../svg/user.svg" alt="imagem de um usuário"></span>Meu perfil</a>
+                                <a role='button' class="dropdown-item" href="#"><span class='ic'><img src="../svg/logout.svg" alt="imagem de uma porta de saída"></span>Sair</a>
                             </div>
                     </li>
                     
@@ -78,11 +78,11 @@
             <div class="cont">
     
                     <div class='item'>
-                    <div class="btn btn collapsed" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="btn btn collapsed" id="headingOne" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             
                             <div class='card'>
-                                <img src="../svg/user.svg" class="card-img-top" alt="...">
-                                <img src="../svg/heart.svg" alt="" id='heart'>
+                                <img src="../svg/user.svg" class="card-img-top" alt="imagem de usuário">
+                                <img src="../svg/heart.svg" alt="coração batendo" id='heart'>
                                 <div class="card-body">
                                     <p class="card-text">
                                         Eu
@@ -94,9 +94,9 @@
                     </div>
     
                       <div class='item'>
-                      <div class="btn" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <div class="btn" id="headingTwo" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class='card'>
-                            <img src="../svg/email.svg" class="card-img-top" alt="...">
+                            <img src="../svg/email.svg" class="card-img-top" alt="carta que simboliza um email">
                             <div class="card-body">
                                 <p class="card-text">
                                     Mensagens
@@ -108,9 +108,9 @@
     
                       
                     <div class='item'>
-                      <div class="btn" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <div class="btn" id="headingThree" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         <div class='card'>
-                            <img src="../svg/notification.svg" class="card-img-top" alt="...">
+                            <img src="../svg/notification.svg" class="card-img-top" alt="sino de notificação">
                             <div class="card-body">
                                 <p class="card-text">
                                     Alertas
@@ -121,10 +121,10 @@
                     </div>
     
                     <div class='item' >
-                        <div class="btn" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="btn" id="headingFour" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                 
                             <div class='card'>
-                                <img src="../svg/copy.svg" class="card-img-top" alt="...">
+                                <img src="../svg/copy.svg" class="card-img-top" alt="símbolo de cópia com duas folhas">
                                 <div class="card-body">
                                     <p class="card-text">
                                         Anúncios
@@ -136,10 +136,10 @@
                       </div>
     
                       <div class='item' >
-                        <div class="btn" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="btn" id="headingFive" role="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                 
                             <div class='card'>
-                                <img src="../svg/plus.svg" class="card-img-top" alt="...">
+                                <img src="../svg/plus.svg" class="card-img-top" alt="sinal de adição">
                                 <div class="card-body">
                                     <p class="card-text">
                                         Criar Anúncio
@@ -151,10 +151,10 @@
                       </div>
     
                       <div class='item'>
-                        <div class="btn btn" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <div class="btn btn" id="headingSix" role="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                 
                             <div class='card'>
-                                <img src="../svg/logout.svg" class="card-img-top" alt="...">
+                                <img src="../svg/logout.svg" class="card-img-top" alt="imagem de porta de saída">
                                 <div class="card-body">
                                     <p class="card-text">
                                         Sair
@@ -176,18 +176,18 @@
                                 <div class="col-md-4 col-sm-12">
     
                                     <h2>Dados pessoais</h2>
-                                    <input type="text"  name="name" id="" placeholder="nome">
-                                    <input type="text"  name="surname" id="" placeholder="sobrenome">
-                                    <input type="text"  name="email" id="" placeholder="e-mail">
+                                    <input type="text"  name="name" id="name" placeholder="nome">
+                                    <input type="text"  name="surname" id="surname" placeholder="sobrenome">
+                                    <input type="text"  name="email" id="email" placeholder="e-mail">
                                     
                                 </div>
     
                                 <div class="col-md-4 col-sm-12">
     
                                     <h2>Alteração de senha</h2>
-                                    <input type="text" name="pass" id="" placeholder="senha atual">
-                                    <input type="text" name="new-pass" id="" placeholder="nova senha">
-                                    <input type="text" name="conf-new-pass" id="" placeholder="confirmar nova senha">
+                                    <input type="text" name="pass" id="pass" placeholder="senha atual">
+                                    <input type="text" name="new-pass" id="new-pass" placeholder="nova senha">
+                                    <input type="text" name="conf-new-pass" id="conf-new-pass" placeholder="confirmar nova senha">
                                     
                                 </div>
     
@@ -196,7 +196,7 @@
                                     <h2>Avatar</h2>
 
                                     <figure>
-                                        <img src="../svg/profile-user.svg" alt="">
+                                        <img src="../svg/profile-user.svg" alt="imagem do perfil do usuário">
                                     </figure>
 
                                     <div>
@@ -210,11 +210,11 @@
                                     
                                 </div>
     
-                                <div id='butt' class='text-center'>
+                                <div id='button1' class='text-center'>
                                     <button class='btn btn-danger'> 
                                         excluir conta
                                     </button>
-                                    <button type='submit'class='btn btn-primary'>
+                                    <button type='submit' class='btn btn-primary'>
                                         salvar alterações
                                     </button>
                                 </div>
@@ -342,7 +342,7 @@
                             <div class="card-body text-center">
                              <h2>Deseja realmente sair?</h2>
 
-                             <div id='butt' class='text-center'>
+                             <div id='button2' class='text-center'>
                                 <button class="btn btn" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                     Cancelar
                                 </button>
@@ -362,7 +362,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
-                    <img src="../images/Parse Ideias-logo-white.png" alt="" width="100%">
+                    <img src="../images/ParseIdeias-logo-white.png" alt="logo do site" width="100%">
                     <!-- <hr> -->
                     <p class="m-0">Siga-nos nas redes sociais</p>
                     <div class="icons-socialmedia">

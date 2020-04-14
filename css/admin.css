@@ -74,7 +74,6 @@ main>h2{
 
 #accordion>.container-fluid{
     text-align: center;
-    scroll-snap-type: x mandatory
 }
 
 
@@ -157,11 +156,11 @@ input{
 
 
 
-#butt{
+#button1,#button2{
     margin:30px auto;
 }
 
-#butt button{
+#button1 button, #button2 button{
     width: 230px;
     margin:10px;
 }
