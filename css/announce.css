@@ -19,7 +19,7 @@ section#businessType div#container div.row{
 }
 
 div#e-commerce {
-  background: #72CEC1;
+  background: rgba(185, 0, 166, 0.8);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
@@ -31,13 +31,13 @@ div#site {
 }
 
 div#social-network {
-  background: #7CADC1;
+  background: rgba(25, 171, 181, 0.8);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 
 div#solution {
-  background: #FF7F5C;
+  background: rgba(27, 192, 23, 0.8);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
