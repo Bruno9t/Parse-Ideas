@@ -5,10 +5,14 @@ nav.navbar {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-section#previewAnnounce {
+section#previewAnnounce>div.container {
   background-color: rgba(44, 24, 161, 0.08);
 }
 
+section#previewAnnounce{
+  margin: 50px auto
+  
+}
 
 section#previewAnnounce h2 {
   font-size: 3.8rem;
@@ -105,6 +109,7 @@ div#message form input {
   height: 5rem;
   color: #A8A8A8;
   border: 0px;
+  margin-bottom: 10px;
 }
 
 div#message form textarea {
@@ -121,6 +126,7 @@ div#message form button {
   border-radius: 10px;
   background-color: #9084D9;
   border-color: #9084D9;
+  margin:20px auto;
 }
 
 div#attention {
@@ -131,6 +137,10 @@ div#attention {
 
 div#next {
   padding: 7rem 0;
+}
+
+section#previewAnnounce div.container div.row {
+  margin-bottom: 0px;
 }
 
 div#next div.col-md-6 {
