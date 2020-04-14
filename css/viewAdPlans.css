@@ -32,10 +32,6 @@ footer h2{
     background-color: #FFFFFF;
 }
 
-#info .container{
-
-}
-
 #info .container p{
     font-size:1.6rem;
 
@@ -145,7 +141,14 @@ section#plans h4{
 section#plans li{
     margin:2rem;
     font-size:1.8rem;
+    /* list-style: none; */
 }
+
+/* section#plans li::before{
+    content: "◦";
+    color: #5A47CC;
+    margin-right: 0.8rem;
+  } */
 
 /* how */
 
