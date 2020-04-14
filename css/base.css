@@ -18,12 +18,12 @@ header li{
 /* for user */
 div.dropdown-menu{
     left:-100px;
-    background: linear-gradient(blue,#5A47CC);
+    background: #5A47CC;
     border:none;
     font-size: 1.6rem;
 }
 a#dropdownMenuLink{
-    background: linear-gradient(blue,#5A47CC);
+    background:none;
     border:none;
 }
 

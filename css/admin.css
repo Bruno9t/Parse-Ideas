@@ -32,9 +32,6 @@ main>h2{
   }
 
 
-
- 
-
   #user-img figure{
       height: 100px;
       width: 100px;
@@ -61,7 +58,8 @@ main>h2{
 }
 
 
-#accordion>.container-fluid div.item img{
+#accordion>.container-fluid div.item img,
+#accordion>.container-fluid div.item i{
     width: 40px;
     height: 40px;
     margin: auto;
@@ -111,11 +109,11 @@ div#headingOne.btn[aria-expanded="true"]{
 }
 
 div#headingTwo.btn[aria-expanded="true"]{
-    background-color: rgb(241, 241, 50);
+    background-color: rgb(39, 206, 136);
 }
 
 div#headingThree.btn[aria-expanded="true"]{
-    background-color: rgb(240, 240, 90);
+    background-color: rgb(238, 137, 43);
 }
 
 div#headingFour.btn[aria-expanded="true"]{
@@ -128,6 +126,10 @@ div#headingFive.btn[aria-expanded="true"]{
 
 div#headingSix.btn[aria-expanded="true"]{
     background-color: rgb(212, 21, 21);
+}
+
+div.btn[aria-expanded="true"] img.card-img-top{
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(237deg) brightness(110%) contrast(101%);
 }
 
 #accordion .col-md-2{
