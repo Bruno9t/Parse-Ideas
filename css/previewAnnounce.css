@@ -179,9 +179,9 @@ div#next div.col-md-6 {
 }
 
 @media(max-width: 574px) {
-  div#fotoHeader {
+  /* div#fotoHeader {
     height: 12.3vh;
-  }
+  } */
 
   div#message form.my-4 {
     padding: 1rem 5rem;
