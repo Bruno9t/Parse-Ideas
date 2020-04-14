@@ -1,0 +1,229 @@
+.form-control{
+    height: calc(3.25rem + 2px);
+    font-size: 1.4rem;
+}
+
+
+.box-search{
+    background-color: #5A47CC;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.box-search .btn{ 
+    font-size: 1.6rem;
+}
+
+#announcements{
+    background-color: #eee;
+    font-size: 1.6rem;
+}
+
+#announcements .card{
+    overflow: hidden;
+} 
+
+#announcements .card h5{
+    font-size: 1.5rem;
+}
+
+#announcements .card p {
+    color: #5A47CC;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#announcements .card .spotlight{
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    background-color: #5A47CC;
+    color: white;
+    top:8px;
+    right: -40px;
+    font-weight: bold;
+    transform: rotate(32deg);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+#announcements .card .categorie{
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    color: white;
+    top: calc(21.5rem - 1px);
+    left: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.tag-ecommerce{
+    background-color: rgba(185, 0, 166, 0.8);
+}
+
+.tag-solutions{
+    background-color: rgba(27, 192, 23, 0.8);
+}
+
+.tag-socialmedia{
+    background-color: rgba(25, 171, 181, 0.8);
+}
+
+#announcements .card .btn{
+    background-color: white;
+    border: 1px solid #5A47CC;
+    color:#5A47CC;
+    font-size: 1.6rem;
+}
+
+#announcements .card .btn:hover{
+    background-color: #5A47CC;
+    color: white;
+}
+
+#announcements .btn-primary{
+    background-color: #5A47CC;
+    border: 1px solid white;
+    color:#fff;
+    font-size: 1.6rem;
+}
+
+#announcements .btn-primary:hover{
+   font-weight: bold;
+}
+
+#howItWorks{
+    background-color: #fff;
+    font-size: 1.6rem;
+}
+
+#howItWorks .btn{
+    background-color: #5A47CC;
+    border: 1px solid white;
+    color:#fff;
+    font-size: 1.6rem;
+}
+
+#howItWorks .btn:hover{
+    font-weight: bold;
+}
+
+#blog{
+    font-size: 1.6rem;
+}
+
+#blog h5{
+    font-size: 1.8rem;
+    padding: 1.6rem;
+}
+
+#blog .btn{
+    background-color: #5A47CC;
+    border: 1px solid white;
+    color:#fff;
+    font-size: 1.6rem;
+}
+
+#blog .btn:hover{
+    font-weight: bold;
+}
+
+.modal{
+    border: 0;
+    font-size: 1.6rem;
+}
+
+.modal h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.modal .btn {
+    font-size: 1.6rem;
+}
+
+
+@media (max-width:1200px){
+    #announcements .card .categorie{
+        top: calc(17.0rem - 1px);
+    }
+}
+
+
+@media (max-width:991px){
+    #announcements .card .categorie{
+        top: calc(11.5rem - 1px);
+    }
+}
+
+@media (max-width:768px){
+    #search .col:nth-child(2){
+        display: none;
+    }
+
+    .card{
+        margin-bottom: 2em;
+    }
+
+    #howItWorks img{
+       width: 50%;
+    }
+
+    #announcements .card .categorie{
+        top: calc(32.0rem - 1px);
+    }
+
+}
+
+@media (max-width:540px){
+    #announcements .card .categorie{
+        top: calc(31.5rem - 1px);
+    }
+}
+
+@media (max-width:512px){
+    #announcements .card .categorie{
+        top: calc(29.5rem - 1px);
+    }
+}
+
+@media (max-width:480px){
+    #announcements .card .categorie{
+        top: calc(25.5rem - 1px);
+    }
+}
+
+@media (max-width:430px){
+    #announcements .card .categorie{
+        top: calc(22.5rem - 1px);
+    }
+}
+
+@media (max-width:380px){
+
+    html{
+        font-size: 50%;
+    }
+
+    #announcements .card .categorie{
+        top: calc(22.5rem - 1px);
+    }
+}
+
+@media (max-width:340px){
+    #announcements .card .categorie{
+        top: calc(18.5rem - 1px);
+    }
+}
+
+@media (max-width:270px){
+    #announcements .card .categorie{
+        top: calc(15.5rem - 1px);
+    }
+}
+
+
