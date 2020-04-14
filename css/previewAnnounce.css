@@ -28,12 +28,13 @@ section#previewAnnounce div.container div#announce{
 }
 
 div#fotoHeader {
+  background-color: rgba(44, 24, 161, 0.08);
   background-image: url('../images/inicial.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  height: 21.6em
+  height: 24.4vh;
 }
 
 div#fotoAnuncio {
@@ -130,3 +131,80 @@ div#attention {
 div#next {
   padding: 7rem 0;
 }
+
+div#next div.col-md-6 {
+  padding: 0 10rem;
+}
+
+@media(max-width: 1200px){
+  div#fotoHeader {
+    height: 20.6vh;
+  }
+
+  div#message form.my-4 {
+    padding: 1rem 26rem;
+  }
+}
+
+@media(max-width: 990px) {
+  div#fotoHeader {
+    height: 15.3vh;
+  }
+
+  div#message form.my-4 {
+    padding: 1rem 20rem;
+  }
+
+  div#next {
+    padding: 5rem 0;
+  } 
+  
+  div#next div.col-md-6 {
+    padding: 0 5rem;
+  }
+}
+
+@media(max-width: 766px) {
+  div#fotoHeader {
+    height: 11.5vh;
+  }
+
+  div#message form.my-4 {
+    padding: 1rem 9rem;
+  }
+
+  div#next div.col-md-6 {
+    padding: 0 3rem;
+  }
+}
+
+@media(max-width: 574px) {
+  div#fotoHeader {
+    height: 12.3vh;
+  }
+
+  div#message form.my-4 {
+    padding: 1rem 5rem;
+  }
+
+  div#next div.col-md-6 {
+    padding: 2rem 15rem;
+  }
+}
+
+@media(max-width: 490px) {
+  div#next div.col-md-6 {
+    padding: 2rem 10rem;
+  }
+}
+
+@media(max-width: 400px) {
+  div#message form.my-4 {
+    padding: 1rem 1rem;
+  }
+
+  div#next div.col-md-6 {
+    padding: 1rem 4rem;
+  }
+}
+
