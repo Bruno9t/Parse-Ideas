@@ -9,6 +9,11 @@ section#previewAnnounce {
   background-color: rgba(44, 24, 161, 0.08);
 }
 
+section#previewAnnounce{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 section#previewAnnounce h2 {
   font-size: 3.8rem;
   color: rgb(100, 96, 96);
