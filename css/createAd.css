@@ -16,18 +16,22 @@ main .container>div>figure{
     display: inline;
 } */
 
-#icon{
+#icon1,#icon2,#icon3{
     display: flex;
     flex-flow: row wrap;
     margin-top:30px;
 }
 
-#icon figure img{
+#icon1 figure img,
+#icon2 figure img,
+#icon3 figure img{
     width: 60px;
     height: 60px;
 }
 
-#icon h2{
+#icon1 h2,
+#icon2 h2,
+#icon3 h2{
     margin: auto 20px;
     font-size:3.8rem;
 }
@@ -154,7 +158,9 @@ input[ type='file' ] {
 }
 
 @media (max-width:464px){
-    #icon h2{
+    #icon1 h2,
+    #icon2 h2,
+    #icon3 h2{
         font-size: 2.4rem;
     }
 }
