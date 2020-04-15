@@ -309,7 +309,7 @@ div#headingOne.btn[aria-expanded="true"] img#heart {
     }
 }
 
-@media (max-width:500px){
+/* @media (max-width:500px){
 
     #accordion>.container-fluid div.item{
         display: inline-block;
@@ -325,4 +325,4 @@ div#headingOne.btn[aria-expanded="true"] img#heart {
         scroll-snap-type: x mandatory
     }
     
-}
+} */
