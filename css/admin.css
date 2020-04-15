@@ -3,6 +3,11 @@ main>h2{
     margin:30px;
 }
 
+button.btn.btn-primary{
+    background: #0054AD;
+}
+
+
 .card{
     border:none;
     background: transparent;
@@ -105,7 +110,7 @@ div#headingSix.btn[aria-expanded="true"]{
 }
 
 div#headingOne.btn[aria-expanded="true"]{
-    background-color: rgb(104, 104, 228);
+    background-color: #4040DD;
 }
 
 div#headingTwo.btn[aria-expanded="true"]{
