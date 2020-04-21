@@ -10,7 +10,6 @@
 
 
 #search {
-    position: relative;
     background: #5A47CC;
     min-height: 50px;
     height: auto;
@@ -19,7 +18,7 @@
     cursor: pointer;
     width: 50px;
     color:white;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 10px rgb(36, 34, 34);
 
 }
 
@@ -58,8 +57,9 @@
 }
 
 #search.loaded{
-    position: relative;
+    position: fixed;
     animation: frame1 ease-in-out 1.5s;
+    z-index: 2;
 }
 
 @keyframes frame1{
@@ -67,10 +67,16 @@
         width: 50px;
     }
     25%{
-        width: 100%;
+        width: 90%;
     }
     to{
         width: 50px;
+    }
+}
+
+@media (max-width:767px){
+    #announcements div.col-md-8.col-sm-12{
+        margin-top: 30px;
     }
 }
 /*  */
