@@ -65,7 +65,7 @@
             <div class="row my-4">
                 <!-- Search Form -->
                 <div class="col-md-4 col-sm-12 my-5">
-                   <form action="" class="form box-search p-4">
+                   <form action="" class="form box-search p-4 hide" id='searchBlock'>
                     <div class="form-group">
                         <label for="">Tipo de Negócio:</label>
                         <select name="type" class="form-control" id="type">
@@ -126,6 +126,9 @@
                     </div>
                    </form>
                 <!-- End Search Form -->
+                <div class="hide" id='search' data-toggle="modal" data-target="#modal2">
+                    <img src="../svg/search.svg" alt="">
+                </div>
                 </div>
                 <div class="col-md-8 col-sm-12">
                     <h2 class="mt-5 text-left"><strong>E-Commerce à Venda</strong></h2>
@@ -322,6 +325,82 @@
     </div>
     <!-- Fim Modal  -->
 
+    <!-- Inicio Modal -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background:transparent;">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <form action="" class="form box-search p-4">
+                    <div class="form-group">
+                        <label for="">Tipo de Negócio:</label>
+                        <select name="type" class="form-control" id="type">
+                            <option value="">Todos</option>
+                            <option value="">E-Commerce</option>
+                            <option value="">Redes Sociais</option>
+                            <option value="">Soluções</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Segmento:</label>
+                        <select name="type" class="form-control" id="type">
+                            <option value="">Todos</option>
+                            <option value="">E-Commerce</option>
+                            <option value="">Redes Sociais</option>
+                            <option value="">Soluções</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Palavra-chave:</label>
+                        <input type="text" name="keyword" class="form-control" placeholder="ex: e-commerce de roupas">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Valor de Venda:</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text">De:</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text">Até:</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Faturamento Médio Mensal:</label>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text">De:</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">  
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text">Até:</span>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"> 
+                        </div>
+                    </div>
+                    <div class="form-group mt-5">
+                        <button class="btn btn-danger btn-lg btn-block">Remover Filtro</button>
+                        <button class="btn btn-success btn-lg btn-block">Aplicar</button>
+                    </div>
+                   </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- Fim Modal  -->
+
     <!-- Import Jquery -->
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -342,6 +421,8 @@
 
     <!-- Import Font Awesome -->
     <script src="https://kit.fontawesome.com/c439770d8e.js" crossorigin="anonymous"></script>
+
+    <script src="../js/searchBar.js"></script>
     
 </body>
 
