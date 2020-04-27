@@ -21,6 +21,17 @@ header li{
 
 
 /* for user */
+button.navbar-toggler{
+    padding: 4px 12px;
+    height: 40px;
+    width: 56px;
+    border:none;
+}
+
+span.navbar-toggler-icon{
+    height: 30px;
+    width: 30px;
+}
 div.dropdown-menu{
     left:-100px;
     background: #5A47CC;
