@@ -93,6 +93,33 @@
     font-size: 1.6rem;
 }
 
+/* buttons of advanced search */
+button#apply-1,
+button#apply-2{
+    background-color:#5A47CC;
+    border:2px white solid;
+    color:white;
+    font-weight: bold;
+}
+
+button#apply-1:hover,
+button#apply-2:hover{
+    background-color: rgb(40, 218, 40);
+    border:2px rgb(40, 218, 40) solid;
+}
+
+button#remove-1,
+button#remove-2{
+    color:white;
+    font-weight: bold;
+}
+
+button#remove-1:hover,
+button#remove-2:hover{
+    background-color:rgb(253, 8, 8);
+}
+/* button end */
+
 #announcements{
     background-color: #eee;
     font-size: 1.6rem;
