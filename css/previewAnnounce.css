@@ -89,7 +89,13 @@ div#description div.row div.col-md-6 mark {
   color: #5A47CC;
 }
 
+form{
+  width: 50%;
+  margin:20px auto 0 auto;
+}
+
 div#message {
+  width: 100%;
   background-color: rgba(44, 24, 161, 0.04);
   padding-top: 4rem;
 }
@@ -100,7 +106,7 @@ div#message h3 {
 }
 
 div#message form.my-4 {
-  padding: 1rem 33rem;
+  padding: 1rem 44rem;
 }
 
 div#message form input {
@@ -219,3 +225,8 @@ div#next div.col-md-6 {
   }
 }
 
+@media (max-width:767px){
+  form{
+    width: 85%;
+  }
+}
